@@ -1,0 +1,13 @@
+PLAN:
+
+What is PostgreSQL & why we are interested in it
+PostgreSQL vs MS-SQL 
+pgAdmin4 vs Management Studio
+JSON & JSONB in Postgres
+Entity Framework Core vs Entity Framework v6.
+EFCore + PostgreSQL
+
+
+.Net vs .Net Core
+
+https://docs.microsoft.com/en-us/ef/efcore-and-ef6/

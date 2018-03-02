@@ -1,0 +1,33 @@
+PostgreSQL is a general purpose and object-relational database management system, the most advanced open source database system.
+
+PostgreSQL is free and open source software
+
+
+
+PostgreSQL features highlights
+
+PostgreSQL has many advanced features that other enterprise database management systems offer, such as:
+
+    User-defined types
+    Table inheritance
+    Sophisticated locking mechanism
+    Foreign key referential integrity
+    Views, rules, subquery
+    Nested transactions (savepoints)
+    Multi-version concurrency control (MVCC)
+    Asynchronous replication
+	
+	
+	
+Using Entity Framework Core in a Console App
+
+We can use EFCore in an application in two different ways: Code-First Approach and Database-First Approach.
+
+Code-First approach is used if you want to create and manage the database from your application code. You can create the database, if not exists already, at runtime or using Migrations.
+
+Database-First approach is used if we want to create our database first and then we can reversed engineer the database into application code.
+
+I am old school so I like to design my own database by hand, therefore the Database-First approach works best for me.
+
+
+The json data type stores an exact copy of the input text, which processing functions must reparse on each execution; while jsonb data is stored in a decomposed binary format that makes it slightly slower to input due to added conversion overhead, but significantly faster to process, since no reparsing is needed. jsonb also supports indexing, which can be a significant advantage.
