@@ -1,13 +1,24 @@
 PLAN:
 
-What is PostgreSQL & why we are interested in it
-PostgreSQL vs MS-SQL 
-pgAdmin4 vs Management Studio
-JSON & JSONB in Postgres
-Entity Framework Core vs Entity Framework v6.
-EFCore + PostgreSQL
+This workshop will give all of you brief look at Postgres and its functionality.
+
+Blueprint:
+- What is PostgreSQL & why we are interested in it
+-- PostgreSQL vs MSSQL 
+-- pgAdmin4 vs Management Studio
+- Additional Data Types avaible in Postgres
+-- JSON & JSONB(binary) in Postgres
+-- Table inheritance in Postgres
+- Working with Postgres
+-- Entity Framework Core vs Entity Framework v6.
+-- EFCore + PostgreSQL (NuGet -> Npgsql, linq2db.PostgreSQL...)
 
 
-.Net vs .Net Core
 
 https://docs.microsoft.com/en-us/ef/efcore-and-ef6/
+
+
+After doing small research and starting work on workshop preparation, some brief description what workshop will be about is clarified.
+If you have some suggestions (what to add, or what to remove or whatever :) )
+please comment on task or discuss @here
+https://socialcee.atlassian.net/browse/SW-9102

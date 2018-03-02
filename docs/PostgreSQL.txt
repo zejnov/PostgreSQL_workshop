@@ -3,7 +3,6 @@ diff MsSQL PsSQL
 working with jsons
 EF6 vs .Net Core 2.0
 
-
 BSON JSON HSTORE, array, extensions
 
 ob Oriented Dat Sys
@@ -11,12 +10,13 @@ post ingres
 call as POSTGRES
 
 
+
 WHY?
 modern, capable, scalable, extensible, supported
 pure perf
 huge scability
 extensibility (like Skyrim)
-json with validation (jsonb - killer feature)
+json with validation (jsonb - killer feature) parser/validator/helpers to work with json
 can install js npm in db(?w?)
 
 The pbasic of psogres (tables, views, functions)
@@ -24,7 +24,8 @@ advanced functionality
 strategies for use with .net
 
 
-
+Linq
+https://www.nuget.org/packages/linq2db.PostgreSQL/
 
 https://medium.com/@RobertKhou/getting-started-with-entity-framework-core-postgresql-c6fa09681624
 
