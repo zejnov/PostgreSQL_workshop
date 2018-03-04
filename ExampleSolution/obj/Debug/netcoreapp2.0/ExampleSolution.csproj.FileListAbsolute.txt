@@ -1,0 +1,11 @@
+E:\Dokumenty\Dropbox\_CSharp\_myRepo\PostgreSQL\ExampleSolution\bin\Debug\netcoreapp2.0\ExampleSolution.deps.json
+E:\Dokumenty\Dropbox\_CSharp\_myRepo\PostgreSQL\ExampleSolution\bin\Debug\netcoreapp2.0\ExampleSolution.runtimeconfig.json
+E:\Dokumenty\Dropbox\_CSharp\_myRepo\PostgreSQL\ExampleSolution\bin\Debug\netcoreapp2.0\ExampleSolution.runtimeconfig.dev.json
+E:\Dokumenty\Dropbox\_CSharp\_myRepo\PostgreSQL\ExampleSolution\bin\Debug\netcoreapp2.0\ExampleSolution.dll
+E:\Dokumenty\Dropbox\_CSharp\_myRepo\PostgreSQL\ExampleSolution\bin\Debug\netcoreapp2.0\ExampleSolution.pdb
+E:\Dokumenty\Dropbox\_CSharp\_myRepo\PostgreSQL\ExampleSolution\obj\Debug\netcoreapp2.0\ExampleSolution.csproj.CoreCompileInputs.cache
+E:\Dokumenty\Dropbox\_CSharp\_myRepo\PostgreSQL\ExampleSolution\obj\Debug\netcoreapp2.0\ExampleSolution.AssemblyInfoInputs.cache
+E:\Dokumenty\Dropbox\_CSharp\_myRepo\PostgreSQL\ExampleSolution\obj\Debug\netcoreapp2.0\ExampleSolution.AssemblyInfo.cs
+E:\Dokumenty\Dropbox\_CSharp\_myRepo\PostgreSQL\ExampleSolution\obj\Debug\netcoreapp2.0\ExampleSolution.dll
+E:\Dokumenty\Dropbox\_CSharp\_myRepo\PostgreSQL\ExampleSolution\obj\Debug\netcoreapp2.0\ExampleSolution.pdb
+E:\Dokumenty\Dropbox\_CSharp\_myRepo\PostgreSQL\ExampleSolution\obj\Debug\netcoreapp2.0\ExampleSolution.csprojResolveAssemblyReference.cache
