@@ -9,3 +9,14 @@ E:\Dokumenty\Dropbox\_CSharp\_myRepo\PostgreSQL\ExampleSolution\obj\Debug\netcor
 E:\Dokumenty\Dropbox\_CSharp\_myRepo\PostgreSQL\ExampleSolution\obj\Debug\netcoreapp2.0\ExampleSolution.dll
 E:\Dokumenty\Dropbox\_CSharp\_myRepo\PostgreSQL\ExampleSolution\obj\Debug\netcoreapp2.0\ExampleSolution.pdb
 E:\Dokumenty\Dropbox\_CSharp\_myRepo\PostgreSQL\ExampleSolution\obj\Debug\netcoreapp2.0\ExampleSolution.csprojResolveAssemblyReference.cache
+C:\MyFolder\_workshops\PostgreSQL_workshop\ExampleSolution\bin\Debug\netcoreapp2.0\ExampleSolution.deps.json
+C:\MyFolder\_workshops\PostgreSQL_workshop\ExampleSolution\bin\Debug\netcoreapp2.0\ExampleSolution.runtimeconfig.json
+C:\MyFolder\_workshops\PostgreSQL_workshop\ExampleSolution\bin\Debug\netcoreapp2.0\ExampleSolution.runtimeconfig.dev.json
+C:\MyFolder\_workshops\PostgreSQL_workshop\ExampleSolution\bin\Debug\netcoreapp2.0\ExampleSolution.dll
+C:\MyFolder\_workshops\PostgreSQL_workshop\ExampleSolution\bin\Debug\netcoreapp2.0\ExampleSolution.pdb
+C:\MyFolder\_workshops\PostgreSQL_workshop\ExampleSolution\obj\Debug\netcoreapp2.0\ExampleSolution.csprojResolveAssemblyReference.cache
+C:\MyFolder\_workshops\PostgreSQL_workshop\ExampleSolution\obj\Debug\netcoreapp2.0\ExampleSolution.csproj.CoreCompileInputs.cache
+C:\MyFolder\_workshops\PostgreSQL_workshop\ExampleSolution\obj\Debug\netcoreapp2.0\ExampleSolution.AssemblyInfoInputs.cache
+C:\MyFolder\_workshops\PostgreSQL_workshop\ExampleSolution\obj\Debug\netcoreapp2.0\ExampleSolution.AssemblyInfo.cs
+C:\MyFolder\_workshops\PostgreSQL_workshop\ExampleSolution\obj\Debug\netcoreapp2.0\ExampleSolution.dll
+C:\MyFolder\_workshops\PostgreSQL_workshop\ExampleSolution\obj\Debug\netcoreapp2.0\ExampleSolution.pdb
