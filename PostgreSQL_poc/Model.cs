@@ -12,8 +12,8 @@ namespace PostgreSQL_poc
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //var connectionString = Configuration.GetConnectionString("ConnectionStrings:DefaultConnection");
-            var connectionString = "User ID=postgres;Password=1234;Host=localhost;Port=7000;Database=Postgres_poc;Pooling=true;";
+            var connectionString = Configuration.GetConnectionString("ConnectionStrings:DefaultConnection");
+            //var connectionString = "User ID=postgres;Password=1234;Host=localhost;Port=7000;Database=Postgres_poc;Pooling=true;";
             optionsBuilder.UseNpgsql(connectionString);
             base.OnConfiguring(optionsBuilder);
         }
