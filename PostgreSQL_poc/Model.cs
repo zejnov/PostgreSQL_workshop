@@ -1,4 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
 namespace PostgreSQL_poc
@@ -7,6 +10,7 @@ namespace PostgreSQL_poc
     {
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Post> Posts { get; set; }
+        public DbSet<Comment> Comments{ get; set; }
 
         //public BloggingContext(DbContextOptions<BloggingContext> options) : base(options){ }
 
@@ -30,13 +34,16 @@ namespace PostgreSQL_poc
             base.OnModelCreating(modelBuilder);
         }
     }
-
+    
     public class Blog
     {
         public long Id { get; set; }
         public string Url { get; set; }
+        
+        [Column(TypeName = "jsonb")]
+        public string CustomData { get; set; }
 
-        public List<Post> Posts { get; set; }
+        public virtual List<Post> Posts { get; set; }
     }
 
     public class Post
@@ -46,7 +53,23 @@ namespace PostgreSQL_poc
         public string Content { get; set; }
         public string Tags { get; set; }
 
+        public List<Comment> Comments { get; set; }
+
         public long BlogId { get; set; }
-        public Blog Blog { get; set; }
+        public virtual Blog Blog { get; set; }
+    }
+
+    public class Comment
+    {
+        public long Id { get; set; }
+        public string AuthorNickname { get; set; }
+
+        public string AuthorEmail { get; set; }
+
+        public string Content { get; set; }
+        public DateTime DateTimeCreated { get; set; }
+
+        public long PostId { get; set; }
+        public virtual Post Post { get; set; }
     }
 }

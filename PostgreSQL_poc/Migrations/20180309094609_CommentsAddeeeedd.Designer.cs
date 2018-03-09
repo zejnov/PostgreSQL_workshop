@@ -11,9 +11,10 @@ using System;
 namespace PostgreSQL_poc.Migrations
 {
     [DbContext(typeof(BloggingContext))]
-    partial class BloggingContextModelSnapshot : ModelSnapshot
+    [Migration("20180309094609_CommentsAddeeeedd")]
+    partial class CommentsAddeeeedd
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -44,7 +45,8 @@ namespace PostgreSQL_poc.Migrations
 
                     b.Property<string>("AuthorNickname");
 
-                    b.Property<string>("Content");
+                    b.Property<string>("Content")
+                        .HasColumnType("jsonb");
 
                     b.Property<DateTime>("DateTimeCreated");
 

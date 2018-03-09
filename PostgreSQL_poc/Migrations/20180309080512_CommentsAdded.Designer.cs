@@ -11,9 +11,10 @@ using System;
 namespace PostgreSQL_poc.Migrations
 {
     [DbContext(typeof(BloggingContext))]
-    partial class BloggingContextModelSnapshot : ModelSnapshot
+    [Migration("20180309080512_CommentsAdded")]
+    partial class CommentsAdded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -24,9 +25,6 @@ namespace PostgreSQL_poc.Migrations
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd();
-
-                    b.Property<string>("CustomData")
-                        .HasColumnType("jsonb");
 
                     b.Property<string>("Url");
 
@@ -44,7 +42,8 @@ namespace PostgreSQL_poc.Migrations
 
                     b.Property<string>("AuthorNickname");
 
-                    b.Property<string>("Content");
+                    b.Property<string>("Content")
+                        .HasColumnType("jsonb");
 
                     b.Property<DateTime>("DateTimeCreated");
 
@@ -83,7 +82,7 @@ namespace PostgreSQL_poc.Migrations
             modelBuilder.Entity("PostgreSQL_poc.Comment", b =>
                 {
                     b.HasOne("PostgreSQL_poc.Post", "Post")
-                        .WithMany("Comments")
+                        .WithMany()
                         .HasForeignKey("PostId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
